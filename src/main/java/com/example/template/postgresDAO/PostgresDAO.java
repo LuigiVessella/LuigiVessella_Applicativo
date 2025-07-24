@@ -20,7 +20,7 @@ public class PostgresDAO implements DAOexample {
 
 	@Override
 	public void exampleQuery() {
-		
+		System.out.println("Hello");
 	}
 
 }
