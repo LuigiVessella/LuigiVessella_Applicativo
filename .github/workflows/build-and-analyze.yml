@@ -1,0 +1,46 @@
+name: Build, Test and Analyze
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-analyze:
+    name: Build, Test and Analyze
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+            fetch-depth: 0
+
+      - name: Set JDK 21
+        uses: actions/setup-java@v4
+        with:
+            java-version: '21'
+            distribution: 'openjdk'
+            cache: 'maven'
+
+      - name: Build and run tests
+        run: mvn -B verify
+
+      - name: Publish Test Report
+        uses: dorny/test-reporter@v1
+        if: success() || failure()
+        with:
+            name: JUnit Test Results
+            path: target/surefire-reports/*.xml
+            reporter: java-junit
+
+      - name: Analyze with SonarCloud
+        if: github.event_name != 'pull_request'
+        run: >
+          mvn -B org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
+          -Dsonar.organization=${{ github.repository_owner }}
+          -Dsonar.projectKey=${{ github.repository_owner }}_${{ github.event.repository.name }}
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
