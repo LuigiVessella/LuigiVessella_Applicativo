@@ -21,15 +21,9 @@ This repository serves as a base template for programming projects. It comes pre
 
 ## Initial Setup
 
-To use this template and enable automatic code analysis, follow these steps.
+Fork this repository.
 
-### 1 Use this Template
-
-Click the green **"Use this template"** button at the top right and select **"Create a new repository"**. Give your new repository a name and create it on your personal GitHub account.
-
-### 2 Create Your SonarCloud Organization and Project
-
-Each student must create their own organization on SonarCloud, linked to their GitHub account.
+Create your own organization on SonarCloud, linked to your GitHub account.
 
 1.  **Log in to SonarCloud**: Go to [SonarCloud.io](https://sonarcloud.io/) and log in with your GitHub account.
 2.  **Create a New Organization**:
