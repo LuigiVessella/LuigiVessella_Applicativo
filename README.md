@@ -1,12 +1,12 @@
 # Project Template
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Template&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Template&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Template&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Template&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Template&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Applicativo&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Applicativo&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Applicativo&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Applicativo&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Applicativo&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
 
-> **Important:** After forking this repository, you **must** edit this `README.md` file. Replace all instances of `Redy1908_Template` in the above links with  `YourGithHubUsername_Template`. Once you have done this, and followed the setup instructions below, you can delete this note and the insstructions.
+> **Important:** After forking this repository, you **must** edit this `README.md` file. Replace all instances of `Redy1908_Applicativo` in the above links with  `YourGithHubUsername_Applciativo`. Once you have done this, and followed the setup instructions below, you can delete this note and the insstructions.
 
 ---
 
