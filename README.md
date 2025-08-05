@@ -6,7 +6,7 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Template&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Redy1908_Template&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Redy1908_Template)
 
-> **Important:** After creating your repository, you **must** edit this `README.md` file. Replace all instances of `Redy1908_Template` in the above links with  `YourGithHubUsername_Template`. Once you have done this, and followed the setup instructions below, you can delete this note and the insstructions.
+> **Important:** After forking this repository, you **must** edit this `README.md` file. Replace all instances of `Redy1908_Template` in the above links with  `YourGithHubUsername_Template`. Once you have done this, and followed the setup instructions below, you can delete this note and the insstructions.
 
 ---
 
